@@ -1,0 +1,44 @@
+2025-08-21T22:02:55.377788-0300 INFO Chamando função 'pipeline_calcular_vendas_consolidado' com args ('data', ['csv']) e kwargs {} log.py
+2025-08-21T22:02:55.378271-0300 INFO Chamando função 'extrair_dados_e_consolidar' com args ('data',) e kwargs {} log.py
+2025-08-21T22:02:55.432711-0300 INFO Função 'extrair_dados_e_consolidar' retornou             Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17 log.py
+2025-08-21T22:02:55.441943-0300 INFO Chamando função 'calcular_total_vendas' com args (            Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17,) e kwargs {} log.py
+2025-08-21T22:02:55.448121-0300 INFO Função 'calcular_total_vendas' retornou             Produto    Categoria  Quantidade  Venda        Data  Total
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15   4500
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15    300
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15    500
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16  10500
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16    300
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16    300
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17   3000
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17    420
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17    200 log.py
+2025-08-21T22:02:55.460379-0300 INFO Chamando função 'carregar_dados' com args (            Produto    Categoria  Quantidade  Venda        Data  Total
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15   4500
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15    300
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15    500
+3    Notebook Gamer  Eletrônicos           7   1500  2023-01-16  10500
+4     Mouse Sem Fio  Eletrônicos          10     30  2023-01-16    300
+5  Teclado Mecânico  Eletrônicos           3    100  2023-01-16    300
+6    Notebook Gamer  Eletrônicos           2   1500  2023-01-17   3000
+7     Mouse Sem Fio  Eletrônicos          14     30  2023-01-17    420
+8  Teclado Mecânico  Eletrônicos           2    100  2023-01-17    200, ['csv']) e kwargs {} log.py
+2025-08-21T22:02:55.472564-0300 INFO Função 'carregar_dados' retornou None log.py
+2025-08-21T22:02:55.473101-0300 INFO Função 'pipeline_calcular_vendas_consolidado' retornou None log.py
